@@ -1,0 +1,12 @@
+name: 网页自动更新
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    name: deploy blogs pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        users: actions/checkout@v3
