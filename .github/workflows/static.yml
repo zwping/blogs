@@ -1,4 +1,4 @@
-# Simple workflow for deploying static content to GitHub Pages
+# 工作流程(workflow)名称
 name: Deploy static content to Pages
 
 on:
